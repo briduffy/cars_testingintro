@@ -5,7 +5,7 @@ class CreateCars < ActiveRecord::Migration[5.2]
       t.string :model
       t.integer :age
       t.float :price
-      t.integer :milage
+      t.integer :mileage
       t.string :color
       t.string :interior
 
